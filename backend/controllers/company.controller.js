@@ -32,6 +32,7 @@ export const registerCompany = async(req,res) => {
     }
 }
 
+//get companies registered by logged in user
 export const getCompany = async(req,res) => {
     try {
         const userId = req.id;  //logged in user id
